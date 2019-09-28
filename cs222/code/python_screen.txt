@@ -1,0 +1,134 @@
+[aktemur@ceviz ~/temp/CS222]$ python -i temp.py
+>>> ankara
+<__main__.City instance at 0x10e643cf8>
+>>> istanbul
+<__main__.City instance at 0x10e643d40>
+>>> cities = [istanbul, ankara, izmir]
+>>> cities
+[<__main__.City instance at 0x10e643d40>, <__main__.City instance at 0x10e643cf8>, <__main__.City instance at 0x10e643d88>]
+>>> len(cities)
+3
+>>> for city in cities:
+...     print city.name
+... 
+Istanbul
+Ankara
+Izmir
+>>> for city in cities:
+...     print city.population
+... 
+15000000
+4500000
+3000000
+>>> sorted(cities)
+[<__main__.City instance at 0x10e643cf8>, <__main__.City instance at 0x10e643d40>, <__main__.City instance at 0x10e643d88>]
+>>> sortedCities = sorted(cities)
+>>> for city in sortedCities:
+...     print city.name
+... 
+Ankara
+Istanbul
+Izmir
+>>> list = [3,6,2,9,6,8,2,8]
+>>> sorted(list)
+[2, 2, 3, 6, 6, 8, 8, 9]
+>>> help(sorted)
+
+>>> sorted(list)
+[2, 2, 3, 6, 6, 8, 8, 9]
+>>> sorted(list, reverse=True)
+[9, 8, 8, 6, 6, 3, 2, 2]
+>>> sorted(cities)
+[<__main__.City instance at 0x10e643cf8>, <__main__.City instance at 0x10e643d40>, <__main__.City instance at 0x10e643d88>]
+>>> help(sorted)
+
+>>> def compareCities(city1, city2):
+...     if city1.population < city2.population:
+...             return -1
+...     elif city1.population > city2.population:
+...             return 1
+...     else:
+...             return 0
+... 
+>>> sorted(cities, cmp=compareCities)
+[<__main__.City instance at 0x10e643d88>, <__main__.City instance at 0x10e643cf8>, <__main__.City instance at 0x10e643d40>]
+>>> for city in sorted(cities, cmp=compareCities):
+...     print city.name
+... 
+Izmir
+Ankara
+Istanbul
+>>> for city in sorted(cities, cmp=compareCities, reverse=True):
+...     print city.name
+... 
+Istanbul
+Ankara
+Izmir
+>>> def compareCities(city1, city2):
+...     if city1.name < city2.name:
+...             return -1
+...     elif city1.name > city2.name:
+...             return 1
+...     else:
+...             return 0
+... 
+>>> for city in sorted(cities, cmp=compareCities):
+...     print city.name
+... 
+Ankara
+Istanbul
+Izmir
+>>> def getPopulation(city):
+...     return city.population
+... 
+>>> getPopulation(istanbul)
+15000000
+>>> for city in sorted(cities, key=getPopulation):
+...     prit city.name
+  File "<stdin>", line 2
+    prit city.name
+            ^
+SyntaxError: invalid syntax
+>>> 
+>>> for city in sorted(cities, key=getPopulation):
+...     print city.name
+... 
+Izmir
+Ankara
+Istanbul
+>>> cities
+[<__main__.City instance at 0x10e643d40>, <__main__.City instance at 0x10e643cf8>, <__main__.City instance at 0x10e643d88>]
+>>> ^D
+[aktemur@ceviz ~/temp/CS222]$ python -i temp.py
+>>> cities
+[Istanbul(15000000), Ankara(4500000), Izmir(3000000)]
+>>> def getPopulation(city):
+...     return city.population
+... 
+>>> sorted(cities, key=getPopulation)
+[Izmir(3000000), Ankara(4500000), Istanbul(15000000)]
+>>> def getNumOfFlights(city):
+...     return len(city.flights)
+... 
+>>> sorted(cities, key=getNumOfFlights)
+[Izmir(3000000), Istanbul(15000000), Ankara(4500000)]
+>>> istanbul.addFlightTo(ankara)
+>>> sorted(cities, key=getNumOfFlights)
+[Izmir(3000000), Ankara(4500000), Istanbul(15000000)]
+>>> print istanbul.flights
+[<__main__.Flight instance at 0x109ddfef0>, <__main__.Flight instance at 0x109ddff38>, <__main__.Flight instance at 0x109ddfcb0>]
+>>> print len(ankara.flights)
+2
+>>> print len(izmir.flights)
+1
+>>> ankara.addFlightTo(istanbul)
+>>> ankara.addFlightTo(istanbul)
+>>> ankara.addFlightTo(istanbul)
+>>> print len(ankara.flights)
+5
+>>> sorted(cities, key=getNumOfFlights)
+[Izmir(3000000), Istanbul(15000000), Ankara(4500000)]
+>>> sorted(cities, key=getNumOfFlights, reverse=True)
+[Ankara(4500000), Istanbul(15000000), Izmir(3000000)]
+>>> sorted(cities, key=getNumOfFlights, reverse=True)[0]
+Ankara(4500000)

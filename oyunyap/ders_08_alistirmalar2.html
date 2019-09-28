@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bilgisayar Oyunu Atölyesi | Özyeğin Üniversitesi</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40734406-1', 'ozyegin.edu.tr');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="wrapper">
+            <header>
+              <ul>
+                <li><a href="http://ozyegin.edu.tr"><img src="img/ozu_logo.png" width="80%" /></a>
+                
+                
+                <li><a href="index.html">Dersler</a></li>
+                <li><a href="gecmis.html">Geçmiş</a></li>
+                <li><a href="cs4hs.html">CS4HS</a></li>
+                
+              </ul>
+            </header>
+            <section>
+              <h1>ÖzÜ Oyun Atölyesi</h1>
+              <p style="text-align:left;">
+<a href="ders_07_degiskenler.html">&lt; Değişkenler</a>
+<span style="float:right;">
+<a href="ders_09_setup_ve_draw.html">Setup ve draw metodları &gt;</a>
+</span></p>
+
+<p><hr></p>
+
+<h2>Alıştırmalar II</h2>
+
+<ol>
+<li><p>Aşağıdaki şekli çizen bir Processing programı yazın.
+Çizgilerin koordinatlarını <code>width</code> ve <code>height</code> cinsinden belirleyin;
+öyle ki, boyutu değiştirseniz de başka bir değişiklik yapmanıza
+gerek olmadan benzer bir şekil oluşsun.</p>
+
+<p><img src="img/dersler/exercise23.png" alt="Alıştırma 23"></p></li>
+<li><p>Yukarıdaki sorunun aynısını aşağıdaki resim ve kod için yanıtlayın.</p>
+
+<p><img src="img/dersler/exercise24.png" alt="Alıştırma 24"></p></li>
+<li><p>Yukarıdaki sorunun aynısını aşağıdaki resim ve kod için yanıtlayın.</p>
+
+<p><img src="img/dersler/exercise25.png" alt="Alıştırma 25"></p></li>
+<li><p>Aşağıdaki şeklin ortaya çıkması için 
+<code>h</code> değişkeninin değeri ne olmalı?
+Burada sol kenar üstündeki nokta tam orta noktasıdır.
+<code>h</code> değerini <code>width</code> ve/veya <code>height</code> cinsinden yazın;
+öyle ki, boyutu <code>500,800</code> yapsanız da başka bir değişiklik yapmanıza
+gerek olmadan benzer bir şekil oluşsun.</p>
+
+<p><img src="img/dersler/exercise21.png" alt="Alıştırma 21"></p>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">size</span><span class="o">(</span><span class="mi">400</span><span class="o">,</span><span class="mi">300</span><span class="o">);</span>
+<span class="kt">int</span> <span class="n">h</span> <span class="o">=</span> <span class="o">???;</span>
+
+<span class="n">line</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">h</span><span class="o">,</span> <span class="n">width</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span>
+<span class="n">line</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">h</span><span class="o">,</span> <span class="n">width</span><span class="o">,</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">2</span><span class="o">);</span>
+<span class="n">line</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">h</span><span class="o">,</span> <span class="n">width</span><span class="o">,</span> <span class="n">height</span><span class="o">);</span>
+</code></pre></div>
+<p><strong>Cevap:</strong> <code>height/2</code></p></li>
+<li><p>Yukarıdaki sorunun aynısını aşağıdaki resim ve kod için yanıtlayın.</p>
+
+<p><img src="img/dersler/exercise22.png" alt="Alıştırma 22"></p>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">size</span><span class="o">(</span><span class="mi">400</span><span class="o">,</span><span class="mi">300</span><span class="o">);</span>
+<span class="kt">int</span> <span class="n">h</span> <span class="o">=</span> <span class="o">???;</span>
+
+<span class="n">line</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">h</span> <span class="o">-</span> <span class="n">height</span><span class="o">,</span> <span class="n">width</span><span class="o">,</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">2</span><span class="o">);</span>
+<span class="n">line</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">h</span> <span class="o">-</span> <span class="n">height</span><span class="o">/</span><span class="mi">2</span><span class="o">,</span> <span class="n">width</span><span class="o">,</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">2</span><span class="o">);</span>
+<span class="n">line</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">h</span><span class="o">,</span> <span class="n">width</span><span class="o">,</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">2</span><span class="o">);</span>
+</code></pre></div></li>
+<li><p><a href="ders_parabol.html">Alıştırma: Parabol</a> ve
+<a href="ders_06_alistirmalar1.html">Alıştırmalar I</a>
+bölümlerindeki alıştırmaları,
+koordinatları <code>width</code> ve <code>height</code> cinsinden tanımlayarak yapın. Öyle ki,
+pencerenizin boyutu değişirse, başka bir değişikliğe gerek kalmadan
+görüntü yeni pencere boyutuna göre ölçeklensin. Örnek:</p></li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cPlldWlIiAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </section>
+            <footer>
+            </footer>
+          </div>
+
+    </body>
+</html>

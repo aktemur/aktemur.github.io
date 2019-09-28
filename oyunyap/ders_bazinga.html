@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bilgisayar Oyunu Atölyesi | Özyeğin Üniversitesi</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40734406-1', 'ozyegin.edu.tr');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="wrapper">
+            <header>
+              <ul>
+                <li><a href="http://ozyegin.edu.tr"><img src="img/ozu_logo.png" width="80%" /></a>
+                
+                
+                <li><a href="index.html">Dersler</a></li>
+                <li><a href="gecmis.html">Geçmiş</a></li>
+                <li><a href="cs4hs.html">CS4HS</a></li>
+                
+              </ul>
+            </header>
+            <section>
+              <h1>ÖzÜ Oyun Atölyesi</h1>
+              <p style="text-align:left;">
+<a href="ders_yazi.html">&lt; Yazı</a>
+<span style="float:right;">
+<a href="ders_ziplayantop.html">Biraz fizik &gt;</a>
+</span></p>
+
+<p><hr></p>
+
+<h2>Bazinga</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XgioCRpNs40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Kod</h2>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="kn">import</span> <span class="nn">ddf.minim.*</span><span class="o">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="o">()</span> <span class="o">{</span>
+  <span class="n">Minim</span> <span class="n">minim</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Minim</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>
+  <span class="n">ding</span> <span class="o">=</span> <span class="n">minim</span><span class="o">.</span><span class="na">loadSample</span><span class="o">(</span><span class="s">"ding.mp3"</span><span class="o">);</span>
+  <span class="n">bazinga</span> <span class="o">=</span> <span class="n">minim</span><span class="o">.</span><span class="na">loadSample</span><span class="o">(</span><span class="s">"bazinga.mp3"</span><span class="o">);</span>
+  <span class="n">size</span><span class="o">(</span><span class="mi">500</span><span class="o">,</span> <span class="mi">500</span><span class="o">);</span>
+  <span class="n">daireX</span> <span class="o">=</span> <span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="o">;</span>
+  <span class="n">daireY</span> <span class="o">=</span> <span class="n">height</span> <span class="o">/</span> <span class="mi">2</span><span class="o">;</span>
+  <span class="n">fill</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">255</span><span class="o">);</span>
+  <span class="n">stroke</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">255</span><span class="o">);</span>
+  <span class="n">cursor</span><span class="o">(</span><span class="n">CROSS</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="kt">int</span> <span class="n">daireX</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">daireY</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">cap</span> <span class="o">=</span> <span class="mi">50</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">kirmizi</span> <span class="o">=</span> <span class="mi">255</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">yesil</span> <span class="o">=</span> <span class="mi">255</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">mavi</span> <span class="o">=</span> <span class="mi">255</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">can</span> <span class="o">=</span> <span class="mi">5</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">level</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
+<span class="n">AudioSample</span> <span class="n">ding</span><span class="o">;</span>
+<span class="n">AudioSample</span> <span class="n">bazinga</span><span class="o">;</span>
+
+<span class="kt">void</span> <span class="nf">draw</span><span class="o">()</span> <span class="o">{</span>
+  <span class="n">background</span><span class="o">(</span><span class="n">kirmizi</span><span class="o">,</span> <span class="n">yesil</span><span class="o">,</span> <span class="n">mavi</span><span class="o">);</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">can</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">level</span> <span class="o">&gt;=</span> <span class="mi">8</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">text</span><span class="o">(</span><span class="s">"Sen yaparsın!"</span><span class="o">,</span> <span class="n">width</span><span class="o">/</span><span class="mi">2</span><span class="o">,</span> <span class="n">height</span><span class="o">/</span><span class="mi">2</span><span class="o">);</span>
+    <span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">level</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">ellipse</span><span class="o">(</span><span class="n">daireX</span><span class="o">,</span> <span class="n">daireY</span><span class="o">,</span> <span class="n">cap</span><span class="o">,</span> <span class="n">cap</span><span class="o">);</span>
+      <span class="n">noCursor</span><span class="o">();</span>
+      <span class="n">line</span><span class="o">(</span><span class="n">mouseX</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">mouseX</span><span class="o">,</span> <span class="mi">5</span><span class="o">);</span>
+      <span class="n">line</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">mouseY</span><span class="o">,</span> <span class="mi">5</span><span class="o">,</span> <span class="n">mouseY</span><span class="o">);</span>
+    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+      <span class="n">ellipse</span><span class="o">(</span><span class="n">daireX</span><span class="o">,</span> <span class="n">daireY</span><span class="o">,</span> <span class="n">cap</span><span class="o">,</span> <span class="n">cap</span><span class="o">);</span>
+    <span class="o">}</span>
+  <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+    <span class="n">text</span><span class="o">(</span><span class="s">"Öğren de gel!"</span><span class="o">,</span> <span class="n">width</span><span class="o">/</span><span class="mi">2</span><span class="o">,</span> <span class="n">height</span><span class="o">/</span><span class="mi">2</span><span class="o">);</span>
+  <span class="o">}</span>
+  <span class="n">kirmizi</span> <span class="o">=</span> <span class="n">kirmizi</span> <span class="o">+</span> <span class="mi">2</span><span class="o">;</span>
+  <span class="n">yesil</span> <span class="o">=</span> <span class="n">yesil</span> <span class="o">+</span> <span class="mi">2</span><span class="o">;</span>
+  <span class="n">mavi</span> <span class="o">=</span> <span class="n">mavi</span> <span class="o">+</span> <span class="mi">2</span><span class="o">;</span>
+
+  <span class="n">text</span><span class="o">(</span><span class="s">"Can: "</span> <span class="o">+</span> <span class="n">can</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">height</span><span class="o">-</span><span class="mi">25</span><span class="o">);</span>
+  <span class="n">text</span><span class="o">(</span><span class="s">"Level: "</span> <span class="o">+</span> <span class="n">level</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">height</span><span class="o">-</span><span class="mi">5</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">mousePressed</span><span class="o">()</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">can</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">level</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">dist</span><span class="o">(</span><span class="n">daireX</span><span class="o">,</span> <span class="n">daireY</span><span class="o">,</span> <span class="n">mouseX</span><span class="o">,</span> <span class="n">mouseY</span><span class="o">)</span> <span class="o">&lt;</span> <span class="n">cap</span><span class="o">/</span><span class="mi">2</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">daireX</span> <span class="o">=</span> <span class="kt">int</span><span class="o">(</span><span class="n">random</span><span class="o">(</span><span class="n">cap</span><span class="o">/</span><span class="mi">2</span><span class="o">,</span> <span class="n">width</span><span class="o">-</span><span class="n">cap</span><span class="o">/</span><span class="mi">2</span><span class="o">));</span>
+      <span class="n">daireY</span> <span class="o">=</span> <span class="kt">int</span><span class="o">(</span><span class="n">random</span><span class="o">(</span><span class="n">cap</span><span class="o">/</span><span class="mi">2</span><span class="o">,</span> <span class="n">height</span><span class="o">-</span><span class="n">cap</span><span class="o">/</span><span class="mi">2</span><span class="o">));</span>
+      <span class="n">cap</span> <span class="o">=</span> <span class="n">cap</span> <span class="o">-</span> <span class="mi">4</span><span class="o">;</span>
+      <span class="n">kirmizi</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+      <span class="n">yesil</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+      <span class="n">level</span> <span class="o">=</span> <span class="n">level</span> <span class="o">+</span> <span class="mi">1</span><span class="o">;</span>
+      <span class="n">ding</span><span class="o">.</span><span class="na">trigger</span><span class="o">();</span>
+    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+      <span class="n">yesil</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+      <span class="n">mavi</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+      <span class="n">can</span> <span class="o">=</span> <span class="n">can</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span>
+      <span class="n">bazinga</span><span class="o">.</span><span class="na">trigger</span><span class="o">();</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>
+            </section>
+            <footer>
+            </footer>
+          </div>
+
+    </body>
+</html>

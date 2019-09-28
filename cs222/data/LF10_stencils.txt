@@ -1,0 +1,11 @@
+Stencil 0: -3 -2 0 
+Rows with stencil 0: 4 6 8 10 12 14 16 
+Stencil 1: -2 -1 0 
+Rows with stencil 1: 3 5 7 9 11 13 15 17 
+Stencil 2: -2 0 
+Rows with stencil 2: 2 
+Stencil 3: -1 0 
+Rows with stencil 3: 1 
+Stencil 4: 0 
+Rows with stencil 4: 0 
+

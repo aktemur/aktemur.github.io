@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bilgisayar Oyunu Atölyesi | Özyeğin Üniversitesi</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40734406-1', 'ozyegin.edu.tr');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="wrapper">
+            <header>
+              <ul>
+                <li><a href="http://ozyegin.edu.tr"><img src="img/ozu_logo.png" width="80%" /></a>
+                
+                
+                <li><a href="index.html">Dersler</a></li>
+                <li><a href="gecmis.html">Geçmiş</a></li>
+                <li><a href="cs4hs.html">CS4HS</a></li>
+                
+              </ul>
+            </header>
+            <section>
+              <h1>ÖzÜ Oyun Atölyesi</h1>
+              <p style="text-align:left;">
+<a href="ders_sikiysayakala.html">&lt; Alıştırma: Sıkıysa yakala</a>
+<span style="float:right;">
+<a href="ders_kodformati.html">Kod formatı &gt;</a>
+</span></p>
+
+<p><hr></p>
+
+<h2>Etkileşim</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ou-U_Iaxw_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>Özet</h3>
+
+<ul>
+<li><p><code>mouseClicked()</code> metodu içinde yazılan komutlar,
+fare tıklandığında çalıştırılır.</p></li>
+<li><p>Farenin hangi butonuna tıklandığını bulmak için <code>mouseButton</code>
+değişkeni kullanılır.</p></li>
+<li><p>İki değerin birbirine eşit olup olmadığını bulmak için <code>==</code>
+operatorü kullanılır. Örnek:</p>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">if</span> <span class="o">(</span><span class="n">mouseButton</span> <span class="o">==</span> <span class="n">LEFT</span><span class="o">)</span> <span class="o">{</span>
+  <span class="o">...</span>
+<span class="o">}</span>
+</code></pre></div></li>
+<li><p><code>keyPressed()</code> metodu içinde yazılan komutlar,
+klavyede bir tuşa basıldığında çalıştırılır.</p></li>
+<li><p>Klavyenin hangi butonuna tıklandığını bulmak için <code>key</code> ya da
+<code>keyCode</code> değişkeni kullanılır.
+Bir harf değeri olan tuşlar için <code>key</code>, diğer tuşlar için
+<code>keyCode</code> kullanılır. Örnek:</p>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">if</span> <span class="o">(</span><span class="n">keyCode</span> <span class="o">==</span> <span class="n">LEFT</span><span class="o">)</span> <span class="o">{</span>
+  <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">5</span><span class="o">;</span>
+<span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">keyCode</span> <span class="o">==</span> <span class="n">RIGHT</span><span class="o">)</span> <span class="o">{</span>
+  <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span><span class="o">;</span>
+<span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">key</span> <span class="o">==</span> <span class="sc">'w'</span><span class="o">)</span> <span class="o">{</span>
+  <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">-</span> <span class="mi">5</span><span class="o">;</span>
+<span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">key</span> <span class="o">==</span> <span class="sc">'s'</span><span class="o">)</span> <span class="o">{</span>
+  <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">5</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></li>
+</ul>
+
+            </section>
+            <footer>
+            </footer>
+          </div>
+
+    </body>
+</html>

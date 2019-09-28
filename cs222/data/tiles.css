@@ -1,0 +1,1408 @@
+.g_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -30px;
+}
+
+.g_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -30px;
+}
+
+.g_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -30px;
+}
+
+.g_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -30px;
+}
+
+.g_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -30px;
+}
+
+.g_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -30px;
+}
+
+.g_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -30px;
+}
+
+.g_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -30px;
+}
+
+.g_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -30px;
+}
+
+.g_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -30px;
+}
+
+.g_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -30px;
+}
+
+.g_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -30px;
+}
+
+.g_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -30px;
+}
+
+.g_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -30px;
+}
+
+.g_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -30px;
+}
+
+.g_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -30px;
+}
+
+.d_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -60px;
+}
+
+.d_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -60px;
+}
+
+.d_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -60px;
+}
+
+.d_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -60px;
+}
+
+.d_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -60px;
+}
+
+.d_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -60px;
+}
+
+.d_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -60px;
+}
+
+.d_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -60px;
+}
+
+.d_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -60px;
+}
+
+.d_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -60px;
+}
+
+.d_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -60px;
+}
+
+.d_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -60px;
+}
+
+.d_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -60px;
+}
+
+.d_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -60px;
+}
+
+.d_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -60px;
+}
+
+.d_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -60px;
+}
+
+.i_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -90px;
+}
+
+.i_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -90px;
+}
+
+.i_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -90px;
+}
+
+.i_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -90px;
+}
+
+.i_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -90px;
+}
+
+.i_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -90px;
+}
+
+.i_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -90px;
+}
+
+.i_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -90px;
+}
+
+.i_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -90px;
+}
+
+.i_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -90px;
+}
+
+.i_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -90px;
+}
+
+.i_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -90px;
+}
+
+.i_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -90px;
+}
+
+.i_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -90px;
+}
+
+.i_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -90px;
+}
+
+.i_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -90px;
+}
+
+.j_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -120px;
+}
+
+.j_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -120px;
+}
+
+.j_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -120px;
+}
+
+.j_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -120px;
+}
+
+.j_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -120px;
+}
+
+.j_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -120px;
+}
+
+.j_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -120px;
+}
+
+.j_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -120px;
+}
+
+.j_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -120px;
+}
+
+.j_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -120px;
+}
+
+.j_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -120px;
+}
+
+.j_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -120px;
+}
+
+.j_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -120px;
+}
+
+.j_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -120px;
+}
+
+.j_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -120px;
+}
+
+.j_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -120px;
+}
+
+.p_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -150px;
+}
+
+.p_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -150px;
+}
+
+.p_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -150px;
+}
+
+.p_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -150px;
+}
+
+.p_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -150px;
+}
+
+.p_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -150px;
+}
+
+.p_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -150px;
+}
+
+.p_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -150px;
+}
+
+.p_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -150px;
+}
+
+.p_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -150px;
+}
+
+.p_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -150px;
+}
+
+.p_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -150px;
+}
+
+.p_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -150px;
+}
+
+.p_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -150px;
+}
+
+.p_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -150px;
+}
+
+.p_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -150px;
+}
+
+.s_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -180px;
+}
+
+.s_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -180px;
+}
+
+.s_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -180px;
+}
+
+.s_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -180px;
+}
+
+.s_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -180px;
+}
+
+.s_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -180px;
+}
+
+.s_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -180px;
+}
+
+.s_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -180px;
+}
+
+.s_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -180px;
+}
+
+.s_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -180px;
+}
+
+.s_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -180px;
+}
+
+.s_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -180px;
+}
+
+.s_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -180px;
+}
+
+.s_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -180px;
+}
+
+.s_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -180px;
+}
+
+.s_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -180px;
+}
+
+.r_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -210px;
+}
+
+.r_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -210px;
+}
+
+.r_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -210px;
+}
+
+.r_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -210px;
+}
+
+.r_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -210px;
+}
+
+.r_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -210px;
+}
+
+.r_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -210px;
+}
+
+.r_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -210px;
+}
+
+.r_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -210px;
+}
+
+.r_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -210px;
+}
+
+.r_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -210px;
+}
+
+.r_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -210px;
+}
+
+.r_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -210px;
+}
+
+.r_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -210px;
+}
+
+.r_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -210px;
+}
+
+.r_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -210px;
+}
+
+.w_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -270px;
+}
+
+.w_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -30px -270px;
+}
+
+.w_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -60px -270px;
+}
+
+.w_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -90px -270px;
+}
+
+.w_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -270px;
+}
+
+.w_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -150px -270px;
+}
+
+.w_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -180px -270px;
+}
+
+.w_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -210px -270px;
+}
+
+.w_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -270px;
+}
+
+.w_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -270px -270px;
+}
+
+.w_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -300px -270px;
+}
+
+.w_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -330px -270px;
+}
+
+.w_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -360px -270px;
+}
+
+.w_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -390px -270px;
+}
+
+.w_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -420px -270px;
+}
+
+.w_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -450px -270px;
+}
+
+.h_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.h_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -0px -300px;
+}
+
+.f_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.f_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -120px -300px;
+}
+
+.m_0_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_0_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_0_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_0_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_0_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_0_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_0_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_0_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_0_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_0_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_0_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_0_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_1_0_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_1_0_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_1_1_0{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
+.m_1_1_1_1{
+height: 30px;
+width: 30px;
+background: url(tiles.png);
+overflow: hidden;
+background-position: -240px -300px;
+}
+
