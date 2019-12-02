@@ -3,6 +3,9 @@ layout: default
 ---
 
 ## Refereed Publications
+* Esat Genç, Hasan Sözer, M. Furkan Kıraç, Barış Aktemur.
+  _ADVISOR: An Adjustable Framework for Test Oracle Automation of Visual Output Systems._ IEEE Transactions on Reliability (_To appear_).  
+  [[PDF]](data/ieee-trans-reliability-2020.pdf)
 * M. Furkan Kıraç, Barış Aktemur, Hasan Sözer, Ceren Şahin Gebizli.
   _Automatically Learning Usage Behavior and Generating Event Sequences for Black-Box Testing of Reactive Systems._ Software Quality Journal 2019, Volume 27, Issue 2, pp 861–883.  
   [[PDF]](data/sqj18preprint.pdf)
