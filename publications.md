@@ -6,6 +6,10 @@ layout: default
 * Esat Genç, Hasan Sözer, M. Furkan Kıraç, Barış Aktemur.
   _ADVISOR: An Adjustable Framework for Test Oracle Automation of Visual Output Systems._ IEEE Transactions on Reliability (_To appear_).  
   [[PDF]](data/ieee-trans-reliability-2020.pdf)
+* Abdullah Yıldız, Deniz İskender, Gülçe Özlü, H. Fatih Uğurdağ, Barış Aktemur, Sezer Gören.
+  _Software UART: A Use Case for VSCPU Worst-Case Execution Time Analyzer._
+  UBMK 2019: 4th International Conference on Computer Science and Engineering, Samsun, Turkey.  
+  [[DOI]](https://doi.org/10.1109/UBMK.2019.8907220)
 * Abdullah Varıcı, Gürol Sağlam, Seçkin İpek, Abdullah Yıldız, Sezer Gören, Aydın Aysu, Deniz İskender, Barış Aktemur, H. Fatih Uğurdağ.
   _Fast and Efficient Implementation of Lightweight Crypto Algorithm PRESENT on FPGA through Processor Instruction Set Extension._ EWDTS 2019: IEEE East-West Design & Test Symposium, Batumi, Georgia.  
   [[DOI]](https://doi.org/10.1109/EWDTS.2019.8884397)
