@@ -6,6 +6,9 @@ layout: default
 * Esat Genç, Hasan Sözer, M. Furkan Kıraç, Barış Aktemur.
   _ADVISOR: An Adjustable Framework for Test Oracle Automation of Visual Output Systems._ IEEE Transactions on Reliability (_To appear_).  
   [[PDF]](data/ieee-trans-reliability-2020.pdf)
+* Abdullah Varıcı, Gürol Sağlam, Seçkin İpek, Abdullah Yıldız, Sezer Gören, Aydın Aysu, Deniz İskender, Barış Aktemur, H. Fatih Uğurdağ.
+  _Fast and Efficient Implementation of Lightweight Crypto Algorithm PRESENT on FPGA through Processor Instruction Set Extension._ EWDTS 2019: IEEE East-West Design & Test Symposium, Batumi, Georgia.  
+  [[DOI]](https://doi.org/10.1109/EWDTS.2019.8884397)
 * M. Furkan Kıraç, Barış Aktemur, Hasan Sözer, Ceren Şahin Gebizli.
   _Automatically Learning Usage Behavior and Generating Event Sequences for Black-Box Testing of Reactive Systems._ Software Quality Journal 2019, Volume 27, Issue 2, pp 861–883.  
   [[PDF]](data/sqj18preprint.pdf)
