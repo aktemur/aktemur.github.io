@@ -6,6 +6,7 @@ layout: default
 * Esat Genç, Hasan Sözer, M. Furkan Kıraç, Barış Aktemur.
   _ADVISOR: An Adjustable Framework for Test Oracle Automation of Visual Output Systems._ IEEE Transactions on Reliability (_To appear_).  
   [[PDF]](data/ieee-trans-reliability-2020.pdf)
+  [[DOI]](https://doi.org/10.1109/TR.2019.2957507)
 * Barış Aktemur.
   _Duff Aygıtı Tabanlı Seyrek Matris-Vektör Çarpımı._
   DEUFMD (_Basımda_).  
