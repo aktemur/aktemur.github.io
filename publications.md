@@ -2,6 +2,10 @@
 layout: default
 ---
 
+_Note:_ Even though a paper's official publication date is after July
+2018, it might state OzU as my affiliation.  This means my contribution
+to that paper is based on work that I did while still at OzU.
+
 ## Refereed Publications
 * Barış Aktemur, Markus Metzger, Natalia Saiapova, Mihails Strasuns.
   _Debugging SYCL programs on heterogeneous Intel architectures._
