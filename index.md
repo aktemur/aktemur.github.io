@@ -9,6 +9,7 @@ Previously he was
 an assistant professor of computer science at [Ozyegin University, Istanbul](http://ozyegin.edu.tr).
 
 **Email:** <aktemur@gmail.com>  
+**Github:** [personal](https://github.com/aktemur), [work](https://github.com/barisaktemur)  
 
 ---
 
