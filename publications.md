@@ -10,7 +10,8 @@ to that paper is based on work that I did while still at OzU.
 * Barış Aktemur, Markus Metzger, Natalia Saiapova, Mihails Strasuns.
   _Debugging SYCL programs on heterogeneous Intel architectures._
   SYCLcon 2020: The 8th International Workshop on OpenCL, SYCL, Vulkan and SPIR-V, Munich, Germany.  
-  _(To appear)_
+  [[PDF]](data/syclcon-2020.pdf)
+  [[DOI]](https://doi.org/10.1145/3388333.3388646)
 * Esat Genç, Hasan Sözer, M. Furkan Kıraç, Barış Aktemur.
   _ADVISOR: An Adjustable Framework for Test Oracle Automation of Visual Output Systems._ IEEE Transactions on Reliability.  
   [[PDF]](data/ieee-trans-reliability-2020.pdf)
