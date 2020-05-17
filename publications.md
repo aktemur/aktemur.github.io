@@ -18,8 +18,10 @@ to that paper is based on work that I did while still at OzU.
   [[DOI]](https://doi.org/10.1109/TR.2019.2957507)
 * Barış Aktemur.
   _Duff Aygıtı Tabanlı Seyrek Matris-Vektör Çarpımı._
-  DEUFMD (_Basımda_).  
+  Dokuz Eylül Üniversitesi Mühendislik Fakültesi Fen ve Mühendislik Dergisi 22 (2020 ): 315-324.  
   [[PDF]](data/deu-fmd.pdf)
+  [[Link]](https://dergipark.org.tr/tr/pub/deumffmd/issue/54215/518263)
+  [[DOI]](https://doi.org/10.21205/deufmd.2020226501))
 * Abdullah Yıldız, Deniz İskender, Gülçe Özlü, H. Fatih Uğurdağ, Barış Aktemur, Sezer Gören.
   _Software UART: A Use Case for VSCPU Worst-Case Execution Time Analyzer._
   UBMK 2019: 4th International Conference on Computer Science and Engineering, Samsun, Turkey.  
