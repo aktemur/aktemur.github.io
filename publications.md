@@ -6,12 +6,37 @@ _Note:_ Even though a paper's official publication date is after July
 2018, it might state OzU as my affiliation.  This means my contribution
 to that paper is based on work that I did while still at OzU.
 
-## Refereed Publications
+## Selected Publications
+
 * Barış Aktemur, Markus Metzger, Natalia Saiapova, Mihails Strasuns.
   _Debugging SYCL programs on heterogeneous Intel architectures._
   SYCLcon 2020: The 8th International Workshop on OpenCL, SYCL, Vulkan and SPIR-V, Munich, Germany.  
   [[PDF]](data/syclcon-2020.pdf)
   [[DOI]](https://doi.org/10.1145/3388333.3388646)
+* Barış Aktemur.
+  _A Sparse Matrix-Vector Multiplication Method with Low Preprocessing Cost._
+  Concurrency and Computation: Practice and Experience.
+  Volume 30, Number 21:e4701.  
+  [[PDF]](data/ccpe18.pdf)
+  [[DOI]](https://dx.doi.org/10.1002/cpe.4701)
+  [[Code 1]](https://github.com/aktemur/CSRLenGoto)
+  [[Code 2]](https://github.com/ozusrl/thundercat/blob/master/src/csrLenWithGOTO.cpp)
+* Buse Yilmaz, Baris Aktemur, Maria Garzaran, Sam Kamin, Furkan Kirac.
+  _Autotuning Runtime Specialization for Sparse Matrix-Vector Multiplication._
+  ACM Transactions on Architecture and Code Optimization (TACO).
+  Volume 13, Issue 1, Article 5 (March 2016)  
+  [[PDF]](data/taco16.pdf)
+  [[DOI]](http://dx.doi.org/10.1145/2851500)
+  [[Code]](https://github.com/ozusrl/thundercat)
+* Wontae Choi, Baris Aktemur, Kwangkeun Yi and Makoto Tatsuta.
+  _Static analysis of multi-staged programs via unstaging translation._
+  The 38th ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages (POPL), 2011, Austin, TX, USA.  
+  Also in [ACM SIGPLAN Notices, 46, 1](http://dl.acm.org/citation.cfm?id=1925844&picked=prox&cfid=40205860&cftoken=11747454) (January 2011), 81-92.  
+  [[PDF]](data/popl11.pdf) <!-- (http://dl.acm.org/authorize?N07090) -->
+  [[DOI]](http://doi.acm.org/10.1145/1926385.1926397)
+
+## Refereed Publications
+
 * Esat Genç, Hasan Sözer, M. Furkan Kıraç, Barış Aktemur.
   _ADVISOR: An Adjustable Framework for Test Oracle Automation of Visual Output Systems._ IEEE Transactions on Reliability.  
   [[PDF]](data/ieee-trans-reliability-2020.pdf)
@@ -40,14 +65,6 @@ to that paper is based on work that I did while still at OzU.
   [[PDF]](data/ubmk18.pdf)
   [[DOI]](https://dx.doi.org/10.1109/UBMK.2018.8566475)
 * Barış Aktemur.
-  _A Sparse Matrix-Vector Multiplication Method with Low Preprocessing Cost._
-  Concurrency and Computation: Practice and Experience.
-  Volume 30, Number 21:e4701.  
-  [[PDF]](data/ccpe18.pdf)
-  [[DOI]](https://dx.doi.org/10.1002/cpe.4701)
-  [[Code 1]](https://github.com/aktemur/CSRLenGoto)
-  [[Code 2]](https://github.com/ozusrl/thundercat/blob/master/src/csrLenWithGOTO.cpp)
-* Barış Aktemur.
   _Kısa Satırlı Matrislere Uygun, Düşük Ön İşleme Maliyetli Seyrek Matris-Vektör Çarpımı._
   BAŞARIM 2017: 5. Ulusal Yüksek Başarımlı Hesaplama Konferansı, İstanbul.  
   [[PDF]](data/basarim17.pdf)
@@ -56,13 +73,6 @@ to that paper is based on work that I did while still at OzU.
   The Journal of Systems & Software. Volume 136, 2018, Pages 266-277.  
   [[PDF]](data/jss17.pdf)
   [[DOI]](https://doi.org/10.1016/j.jss.2017.06.023)
-* Buse Yilmaz, Baris Aktemur, Maria Garzaran, Sam Kamin, Furkan Kirac.
-  _Autotuning Runtime Specialization for Sparse Matrix-Vector Multiplication._
-  ACM Transactions on Architecture and Code Optimization (TACO).
-  Volume 13, Issue 1, Article 5 (March 2016)  
-  [[PDF]](data/taco16.pdf)
-  [[DOI]](http://dx.doi.org/10.1145/2851500)
-  [[Code]](https://github.com/ozusrl/thundercat)
 * Arda Unsal, Gorkem Sazara, Baris Aktemur, Hasan Sozer.
   _Adaptive Domain-Specific Service Monitoring._
   SERENE 2014: 6th International Workshop on Software Engineering for Resilient Systems, Budapest.  
@@ -113,12 +123,6 @@ to that paper is based on work that I did while still at OzU.
   TOPI 2011: First Workshop on Developing Tools as Plug-ins (Short paper), Honolulu, HI, USA.  
   [[PDF]](data/topi11.pdf) <!-- (http://dl.acm.org/authorize?N07099) -->
   [[DOI]](http://dx.doi.org/10.1145/1984708.1984727)
-* Wontae Choi, Baris Aktemur, Kwangkeun Yi and Makoto Tatsuta.
-  _Static analysis of multi-staged programs via unstaging translation._
-  The 38th ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages (POPL), 2011, Austin, TX, USA.  
-  Also in [ACM SIGPLAN Notices, 46, 1](http://dl.acm.org/citation.cfm?id=1925844&picked=prox&cfid=40205860&cftoken=11747454) (January 2011), 81-92.  
-  [[PDF]](data/popl11.pdf) <!-- (http://dl.acm.org/authorize?N07090) -->
-  [[DOI]](http://doi.acm.org/10.1145/1926385.1926397)
 * Baris Aktemur and Sam Kamin.
   _A comparative study of techniques to write customizable libraries._
   The 24th Annual ACM Symposium on Applied Computing (SAC), 2009, Honolulu, Hawaii, USA.  
