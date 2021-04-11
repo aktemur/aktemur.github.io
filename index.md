@@ -7,6 +7,7 @@ layout: default
 Baris Aktemur is a senior software engineer at [Intel, Munich](http://intel.com).
 Previously he was 
 an assistant professor of computer science at [Ozyegin University, Istanbul](http://ozyegin.edu.tr).
+Baris Aktemur holds a _doçent_ title from the Council of Higher Education of Turkey.
 
 **Email:** <aktemur@gmail.com>  
 **Github:** [personal](https://github.com/aktemur), [work](https://github.com/barisaktemur)  

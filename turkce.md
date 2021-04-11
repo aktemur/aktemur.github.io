@@ -7,6 +7,7 @@ layout: default
 Barış Aktemur Intel'in Münih ofisinde kıdemlı yazılım mühendisi
 olarak görev yapmaktadır. Öncesinde Özyeğin Üniversitesi Bilgisayar Mühendisliği
 bölümünde yardımcı doçent idi.
+Barış Aktemur, Üniversitelerarası Kurul tarafından verilen Doçent ünvanına sahiptir.
 
 **Email:** <aktemur@gmail.com>  
 
